@@ -7,18 +7,22 @@ import Form from "./Form";
 
 function Contacts() {
 	const [contacts, setContacts] = useState([
-		{
-			fullname: "Mehmet",
-			phone_number: "123123",
-		},
-		{
-			fullname: "Ayşe",
-			phone_number: "456457",
-		},
-		{
-			fullname: "Nazlı",
-			phone_number: "987659",
-		},
+         {
+            fullname: "Yunus",
+            phone_number: "456457",
+        },
+        {
+            fullname: "Kotan",
+            phone_number: "987659",
+        },
+        {
+            fullname: "Yusa",
+            phone_number: "123789",
+        },
+        {
+            fullname: "Akın",
+            phone_number: "987321",
+        },
 	]);
 
 	useEffect(() => {
